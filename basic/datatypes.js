@@ -37,3 +37,27 @@ const myfuntion = function(){
 console.log(typeof myfuntion);
 
 //object function
+
+let myname = "sapana";
+let anothername = myname
+console.log(myname);
+console.log(anothername)
+anothername = "nagar"
+console.log(myname);
+console.log(anothername)
+
+let userone = {
+    emai :"xyz@gmail.com",
+    upi : "user@ybl"
+}
+console.log(userone)
+let usertwo = userone
+usertwo.emai = "sr@gmail.com"
+console.log(userone.emai);
+console.log(usertwo.emai);
+console.log(usertwo)
+
+
+
+
+
